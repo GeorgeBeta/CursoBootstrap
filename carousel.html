@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Carrusel</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mt-3">
+                <div class="carousel slide" id="slider1" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#slider1" data-slide-to="0" class="active"></li>
+                        <li data-target="#slider1" data-slide-to="1"></li>
+                        <li data-target="#slider1" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/carousel1.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/carousel2.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/carousel3.jpg" class="w-100" alt="">
+                        </div>
+                    </div>
+                    <a href="#slider1" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a href="#slider1" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>Variantes de input</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col">
+                <form action="">
+                    <h2>Tamaños de input</h2>
+                    <hr>
+                    <div class="form-group">
+                        <label for="nombre">Nombre :</label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="correo">Correo :</label>
+                        <input type="text" name="correo" id="correo" class="form-control form-control-lg" placeholder="Correo">
+                    </div>
+                    <div class="form-group">
+                        <label for="nombre">Pasaporte :</label>
+                        <input type="text" name="pasaporte" id="pasaporte" class="form-control form-control-sm" placeholder="Pasaporte">
+                    </div>
+                    <br>
+                    <h2>Estados Readonly y Disabled</h2>
+                    <hr>
+                    <div class="form-group">
+                        <label for="dato1">Dato1 :</label>
+                        <input type="text" name="dato1" id="dato1" placeholder="Readonly" class="form-control" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="dato2">Dato2 :</label>
+                        <input type="text" name="dato2" id="dato2" class="form-control" placeholder="Disabled" disabled>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+</html>
