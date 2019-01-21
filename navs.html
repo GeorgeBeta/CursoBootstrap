@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Navs</title>
+    <style>
+        .estilo-propio a {
+            color: #fff;
+            padding: 15px;
+        }
+        
+        .estilo-propio a:hover {
+            color: rgba(255, 255, 255, 0.1);
+        }
+        
+        .estilo-propio :disabled {
+            color: rgba(255, 255, 255, 0.5);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col">
+                <h2>Menu con "ul" - Vertical</h2>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link disabled">Proximamente</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+                <h2>Menu con "ul" horizontal</h2>
+                <ul class="nav estilo-propio bg-dark">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link disabled">Proximamente</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2>Menu con Nav</h2>
+                <nav class="nav">
+                    <a href="#" class="nav-link">Inicio</a>
+                    <a href="#" class="nav-link">Blog</a>
+                    <a href="#" class="nav-link disabled">Proximamente</a>
+                    <a href="#" class="nav-link">Contacto</a>
+                </nav>
+                <h2>Menu con Nav - Vertical</h2>
+                <nav class="nav flex-column">
+                    <a href="#" class="nav-link">Inicio</a>
+                    <a href="#" class="nav-link">Blog</a>
+                    <a href="#" class="nav-link disabled">Proximamente</a>
+                    <a href="#" class="nav-link">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</html>

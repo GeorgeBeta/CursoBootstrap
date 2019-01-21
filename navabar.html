@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>NavBar</title>
+</head>
+
+<body>
+    <div class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container">
+            <a href="#" class="navbar-brand">Menu</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#id1" aria-controls="navbar" aria-expanded="false" aria-label="Menu de Navegacion">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="id1">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Inicio</a>
+                    </li>
+                    <!-- SUB-MENU CON DROPDOWN-->
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="Submenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+                        <div class="dropdown-menu" aria-labelledby="menu-categorias">
+                            <a href="#" class="dropdown-item">HTML</a>
+                            <a href="#" class="dropdown-item">CSS</a>
+                            <a href="#" class="dropdown-item">JS</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Proximamente</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+                <!-- FORMULARIO -->
+                <div class="form-inline my-2 my-md-0">
+                    <input type="text" class="form-control mr-sm-2" placeholder="Buscar" arial-label="Buscar">
+                    <button type="submit" class="btn btn-primary my-sm-0">Buscar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col">
+                <div class="jumbotron">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, dolores.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae in animi magni praesentium, perspiciatis adipisci dicta aperiam perferendis aliquam. At aperiam eum voluptatum inventore tenetur eos perferendis deserunt, dolores, aliquam
+                        nulla cum vero libero natus quia. Quaerat non vero ipsam eveniet, aliquid repudiandae quam sequi nesciunt harum dolore fugiat cum?</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top:1000px;">
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati modi quibusdam doloribus fuga. Provident eos nesciunt illum quia voluptas sequi, commodi et quaerat tenetur laudantium ratione fugit tempora voluptatum eligendi explicabo
+                    nulla placeat optio, a, minima culpa quam repudiandae labore quos reprehenderit. Vitae eveniet suscipit veritatis placeat. Sapiente, minus laborum?</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</html>
